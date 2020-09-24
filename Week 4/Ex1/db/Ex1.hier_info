@@ -1,0 +1,6 @@
+|Ex1
+sw0 => comb.IN0
+sw1 => comb.IN1
+led0 << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
