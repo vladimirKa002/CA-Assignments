@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Ex2
-Thu Sep 24 23:38:16 2020
+Fri Sep 25 06:59:47 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 24 23:38:16 2020       ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 25 06:59:47 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Ex2                                         ;
 ; Top-level Entity Name              ; Ex2                                         ;
@@ -258,7 +258,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 24 23:38:00 2020
+    Info: Processing started: Fri Sep 25 06:59:31 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Ex2 -c Ex2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -267,22 +267,22 @@ Info (12021): Found 1 design units, including 1 entities, in source file ex2.v
 Info (12127): Elaborating entity "Ex2" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 3
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 3
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 3
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 3
     Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
     Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
-    Warning (13410): Pin "HEX1[7]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 4
     Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 5
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 5
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 5
     Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 6
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 6
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 6
     Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
     Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
+    Warning (13410): Pin "HEX4[7]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 7
     Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 9
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 9
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 9
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Files/Programming/Verilog and FPGA/Lessons/Week 4/Ex2/Ex2.v Line: 9
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 1 input pin(s) that do not drive logic
@@ -292,8 +292,8 @@ Info (21057): Implemented 50 device resources after synthesis - the final resour
     Info (21059): Implemented 48 output pins
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
     Info: Peak virtual memory: 4741 megabytes
-    Info: Processing ended: Thu Sep 24 23:38:16 2020
+    Info: Processing ended: Fri Sep 25 06:59:47 2020
     Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:32
+    Info: Total CPU time (on all processors): 00:00:30
 
 
