@@ -12,7 +12,6 @@ syscall
 
 li $v0, 6
 syscall
-
 mov.s $f11, $f0
 
 l.s $f1, num1
