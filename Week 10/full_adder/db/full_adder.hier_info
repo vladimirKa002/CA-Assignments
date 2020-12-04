@@ -1,0 +1,11 @@
+|full_adder
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

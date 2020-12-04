@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Files/Programming/Verilog and FPGA/Lessons/Cube root/simulation/modelsim
+vcube_root
+!s110 1606829646
+!i10b 1
+!s100 oBEgakk?9GX2Z`fRb=G253
+IgMdnT_NY[aTYX2oK7iGd;3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606829543
+8C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1606829646.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Cube root|C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Cube root}
+Z3 tCvgOpt 0
+vtestbench
+!s110 1606829652
+!i10b 1
+!s100 UES1UTZHSPj2X3_Y5_NQA1
+I?6?BlnKEm4Y_kh:4QGMRC2
+R1
+R0
+w1606829471
+8C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/testbench.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Cube root/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606829652.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/testbench.v|
+!i113 1
+o-work work
+R3

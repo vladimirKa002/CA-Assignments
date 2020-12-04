@@ -1,0 +1,162 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/simulation/modelsim
+vadd
+Z1 !s110 1605790075
+!i10b 1
+!s100 Rbd`9MKaaEXYd[oGTmf5h3
+Iidl=IDlChO=ogQ29eHCZ43
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605788941
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/add.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605790075.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12}
+Z7 tCvgOpt 0
+valu
+!s110 1605790076
+!i10b 1
+!s100 1=3NT406Z[BRWQM^4D5VB3
+I[7U?=ZV?UP^o0<;IL^HQ20
+R2
+R0
+w1605789231
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605790076.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu.v|
+!i113 1
+R5
+R6
+R7
+valu_testbench
+!s110 1605790091
+!i10b 1
+!s100 l4FjVYJ]6i;?5^]@S9Mio0
+IHXGl7JaVe_8LmDV@gO8`m2
+R2
+R0
+w1605789400
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu_testbench.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605790091.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu_testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/alu_testbench.v|
+!i113 1
+Z8 o-work work
+R7
+vglob
+!s110 1605790095
+!i10b 1
+!s100 b0ABYh7ijRe29?XHF8:fE2
+IYVnenXAG=2W7`LA=dQ_ml2
+R2
+R0
+w1605789171
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/glob.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/glob.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605790094.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/glob.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/glob.v|
+!i113 1
+R8
+R7
+vmux
+R1
+!i10b 1
+!s100 ^5VOb_I0<hCFX[6Q?_YSj2
+I20F=4O4eYnDU0h?6>@]o>2
+R2
+R0
+w1605789038
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/MUX.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605790074.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/MUX.v|
+!i113 1
+R5
+R6
+R7
+vsrl
+R1
+!i10b 1
+!s100 KR13W0k0kzl_HLmH?2@5S3
+IkZ1T?5d4[1Rf2X]AC^DX11
+R2
+R0
+w1605789033
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/srl.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/srl.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/srl.v|
+!i113 1
+R5
+R6
+R7
+vsub
+R1
+!i10b 1
+!s100 FohUJY[I:OSZ^bWz6h@iV1
+IW:4Vj`D^381_<aF:FQ?l=2
+R2
+R0
+w1605789051
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/sub.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 12/sub.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 12|C:/Files/Programming/Verilog and FPGA/Lessons/Week 12/sub.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Files/Programming/Verilog and FPGA/Lessons/Week 13/simulation/modelsim
+valu_decoder
+!s110 1606392812
+!i10b 1
+!s100 nF`Z0BbifCd<5Oifz^8HO3
+IaSenLFIXnoH_IIAbQ2CH21
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1606392597
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/alu_decoder.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 13/alu_decoder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1606392812.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/alu_decoder.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/alu_decoder.v|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+vcontrol_unit
+!s110 1606392813
+!i10b 1
+!s100 iUg1o@3CRkzcNA?j[>cO13
+IaoJ4^>=`n^Ae2hfM0Cdjk0
+R1
+R0
+w1606392509
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/control_unit.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 13/control_unit.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606392813.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/control_unit.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/control_unit.v|
+!i113 1
+R3
+R4
+vmain_decoder
+!s110 1606392797
+!i10b 1
+!s100 4Ue36ZfMaLz4aMVlC]?F71
+I6ZoN7JWbBlzO<0l;Vk1SI1
+R1
+R0
+w1606392265
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/main_decoder.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 13/main_decoder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606392797.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 13|C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/main_decoder.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work {+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 13}
+R4
+vtestbench
+!s110 1606392815
+!i10b 1
+!s100 8j^925n7Zd;RLhW=[8Ag<3
+IJLD0acg;G>@aFhA<1nc@11
+R1
+R0
+w1606390343
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/testbench.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 13/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606392815.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 13/testbench.v|
+!i113 1
+R3
+R4

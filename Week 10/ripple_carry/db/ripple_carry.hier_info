@@ -1,0 +1,226 @@
+|ripple_carry
+in1[0] => in1[0].IN1
+in1[1] => in1[1].IN1
+in1[2] => in1[2].IN1
+in1[3] => in1[3].IN1
+in1[4] => in1[4].IN1
+in1[5] => in1[5].IN1
+in1[6] => in1[6].IN1
+in1[7] => in1[7].IN1
+in1[8] => in1[8].IN1
+in1[9] => in1[9].IN1
+in1[10] => in1[10].IN1
+in1[11] => in1[11].IN1
+in1[12] => in1[12].IN1
+in1[13] => in1[13].IN1
+in1[14] => in1[14].IN1
+in1[15] => in1[15].IN1
+in2[0] => in2[0].IN1
+in2[1] => in2[1].IN1
+in2[2] => in2[2].IN1
+in2[3] => in2[3].IN1
+in2[4] => in2[4].IN1
+in2[5] => in2[5].IN1
+in2[6] => in2[6].IN1
+in2[7] => in2[7].IN1
+in2[8] => in2[8].IN1
+in2[9] => in2[9].IN1
+in2[10] => in2[10].IN1
+in2[11] => in2[11].IN1
+in2[12] => in2[12].IN1
+in2[13] => in2[13].IN1
+in2[14] => in2[14].IN1
+in2[15] => in2[15].IN1
+out[0] <= half_adder:ha.result
+out[1] <= full_adder:block_name[1].fa.result
+out[2] <= full_adder:block_name[2].fa.result
+out[3] <= full_adder:block_name[3].fa.result
+out[4] <= full_adder:block_name[4].fa.result
+out[5] <= full_adder:block_name[5].fa.result
+out[6] <= full_adder:block_name[6].fa.result
+out[7] <= full_adder:block_name[7].fa.result
+out[8] <= full_adder:block_name[8].fa.result
+out[9] <= full_adder:block_name[9].fa.result
+out[10] <= full_adder:block_name[10].fa.result
+out[11] <= full_adder:block_name[11].fa.result
+out[12] <= full_adder:block_name[12].fa.result
+out[13] <= full_adder:block_name[13].fa.result
+out[14] <= full_adder:block_name[14].fa.result
+out[15] <= full_adder:fa.result
+overflow <= full_adder:fa.carry_out
+
+
+|ripple_carry|half_adder:ha
+x => result.IN0
+x => carry.IN0
+y => result.IN1
+y => carry.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[1].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[2].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[3].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[4].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[5].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[6].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[7].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[8].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[9].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[10].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[11].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[12].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[13].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:block_name[14].fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry|full_adder:fa
+x => result.IN0
+x => carry_out.IN0
+y => result.IN1
+y => carry_out.IN1
+carry_in => result.IN1
+carry_in => carry_out.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= carry_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,16 @@
+module mux(
+
+);
+always@ (*) begin
+case ( register )
+value1 : begin
+...
+end
+value2 : begin
+...
+end
+default : begin
+...
+end
+endcase
+end

@@ -1,0 +1,12 @@
+|half_adder_testbench
+
+
+|half_adder_testbench|half_adder:ha
+x => result.IN0
+x => carry.IN0
+y => result.IN1
+y => carry.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

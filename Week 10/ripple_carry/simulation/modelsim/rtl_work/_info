@@ -1,0 +1,97 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/simulation/modelsim
+vfull_adder
+Z1 !s110 1605180438
+!i10b 1
+!s100 F2]Zil9o=VcQb8[Vc[]2z1
+IOnZzRKSWWa>ZOLXT;:_JH1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605122163
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/full_adder.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1605180438.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry|C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/full_adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry}
+Z7 tCvgOpt 0
+vhalf_adder
+!s110 1605180439
+!i10b 1
+!s100 dN=h9fLN`7QGaU0A_fiIG0
+IXb92UL?A=BUAUKTT1Xh]=2
+R2
+R0
+w1605122135
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/half_adder.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/half_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry|C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/half_adder.v|
+!i113 1
+R5
+R6
+R7
+vripple_carry
+R1
+!i10b 1
+!s100 _zg1mzYV3hJhHW9Gfo7AT1
+Ig:ZeE^=51B>g]Z442RJ2W1
+R2
+R0
+w1605122376
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry|C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry.v|
+!i113 1
+R5
+R6
+R7
+vripple_carry_testbench
+!s110 1605180453
+!i10b 1
+!s100 ]1AdeTHHgD^jmYRYHnbVE3
+Ig4kkP1?W:AZ>^chP14hzH2
+R2
+R0
+w1605121562
+8C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry_testbench.v
+FC:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry_testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1605180453.000000
+!s107 C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry_testbench.v|
+!s90 -reportprogress|300|-work|work|C:/Files/Programming/Verilog and FPGA/Lessons/Week 10/ripple_carry/ripple_carry_testbench.v|
+!i113 1
+o-work work
+R7
