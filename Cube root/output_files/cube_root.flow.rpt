@@ -1,5 +1,5 @@
 Flow report for cube_root
-Fri Dec 04 19:55:12 2020
+Sat Dec 05 10:02:13 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Dec 04 19:55:12 2020       ;
+; Flow Status                        ; Successful - Sat Dec 05 10:02:13 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; cube_root                                   ;
 ; Top-level Entity Name              ; cube_root                                   ;
@@ -49,9 +49,9 @@ refer to the applicable agreement for further details.
 ; Timing Models                      ; Final                                       ;
 ; Total logic elements               ; 1,050 / 6,272 ( 17 % )                      ;
 ;     Total combinational functions  ; 1,050 / 6,272 ( 17 % )                      ;
-;     Dedicated logic registers      ; 0 / 6,272 ( 0 % )                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 20 / 92 ( 22 % )                            ;
+;     Dedicated logic registers      ; 20 / 6,272 ( < 1 % )                        ;
+; Total registers                    ; 20                                          ;
+; Total pins                         ; 21 / 92 ( 23 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
 ; Embedded Multiplier 9-bit elements ; 11 / 30 ( 37 % )                            ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/04/2020 19:54:05 ;
+; Start date & time ; 12/05/2020 10:01:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; cube_root           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 1095319431650.160710084416108          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 1095319431650.160715168509932          ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -95,12 +95,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:40     ; 1.0                     ; 4793 MB             ; 00:00:50                           ;
-; Fitter               ; 00:00:11     ; 1.0                     ; 5510 MB             ; 00:00:11                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 4678 MB             ; 00:00:02                           ;
-; Timing Analyzer      ; 00:00:05     ; 1.1                     ; 4764 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4657 MB             ; 00:00:04                           ;
-; Total                ; 00:01:02     ; --                      ; --                  ; 00:01:12                           ;
+; Analysis & Synthesis ; 00:00:23     ; 1.0                     ; 4794 MB             ; 00:00:38                           ;
+; Fitter               ; 00:00:09     ; 1.0                     ; 5502 MB             ; 00:00:12                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4676 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 4769 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4659 MB             ; 00:00:04                           ;
+; Total                ; 00:00:42     ; --                      ; --                  ; 00:01:00                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

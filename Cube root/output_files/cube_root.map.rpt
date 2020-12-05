@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cube_root
-Fri Dec 04 19:54:43 2020
+Sat Dec 05 10:01:48 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,26 +14,25 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis DSP Block Usage Summary
-  9. Logic Cells Representing Combinational Loops
- 10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
- 13. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult2
- 14. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult3
- 15. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult4
- 16. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult5
- 17. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult6
- 18. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult7
- 19. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult8
- 20. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult9
- 21. Parameter Settings for Inferred Entity Instance: lpm_divide:Div0
- 22. Parameter Settings for Inferred Entity Instance: lpm_divide:Mod0
- 23. Parameter Settings for Inferred Entity Instance: lpm_divide:Div1
- 24. Parameter Settings for Inferred Entity Instance: lpm_divide:Mod1
- 25. lpm_mult Parameter Settings by Entity Instance
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
+ 12. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult2
+ 13. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult3
+ 14. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult4
+ 15. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult5
+ 16. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult6
+ 17. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult7
+ 18. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult8
+ 19. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult9
+ 20. Parameter Settings for Inferred Entity Instance: lpm_divide:Div0
+ 21. Parameter Settings for Inferred Entity Instance: lpm_divide:Mod0
+ 22. Parameter Settings for Inferred Entity Instance: lpm_divide:Div1
+ 23. Parameter Settings for Inferred Entity Instance: lpm_divide:Mod1
+ 24. lpm_mult Parameter Settings by Entity Instance
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
 
 
 
@@ -59,16 +58,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Dec 04 19:54:43 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sat Dec 05 10:01:48 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; cube_root                                   ;
 ; Top-level Entity Name              ; cube_root                                   ;
 ; Family                             ; Cyclone IV E                                ;
 ; Total logic elements               ; 1,050                                       ;
 ;     Total combinational functions  ; 1,050                                       ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
-; Total pins                         ; 20                                          ;
+;     Dedicated logic registers      ; 20                                          ;
+; Total registers                    ; 20                                          ;
+; Total pins                         ; 21                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 11                                          ;
@@ -255,18 +254,18 @@ refer to the applicable agreement for further details.
 ;     -- normal mode                          ; 728                                             ;
 ;     -- arithmetic mode                      ; 322                                             ;
 ;                                             ;                                                 ;
-; Total registers                             ; 0                                               ;
-;     -- Dedicated logic registers            ; 0                                               ;
+; Total registers                             ; 20                                              ;
+;     -- Dedicated logic registers            ; 20                                              ;
 ;     -- I/O registers                        ; 0                                               ;
 ;                                             ;                                                 ;
-; I/O pins                                    ; 20                                              ;
+; I/O pins                                    ; 21                                              ;
 ;                                             ;                                                 ;
 ; Embedded Multiplier 9-bit elements          ; 11                                              ;
 ;                                             ;                                                 ;
 ; Maximum fan-out node                        ; lpm_mult:Mult8|mult_p5t:auto_generated|mac_out2 ;
 ; Maximum fan-out                             ; 60                                              ;
-; Total fan-out                               ; 3244                                            ;
-; Average fan-out                             ; 2.94                                            ;
+; Total fan-out                               ; 3285                                            ;
+; Average fan-out                             ; 2.92                                            ;
 +---------------------------------------------+-------------------------------------------------+
 
 
@@ -275,7 +274,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                  ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                          ; Entity Name     ; Library Name ;
 +---------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |cube_root                                  ; 1050 (617)          ; 0 (0)                     ; 0           ; 11           ; 3       ; 4         ; 20   ; 0            ; |cube_root                                                                                                   ; cube_root       ; work         ;
+; |cube_root                                  ; 1050 (617)          ; 20 (20)                   ; 0           ; 11           ; 3       ; 4         ; 21   ; 0            ; |cube_root                                                                                                   ; cube_root       ; work         ;
 ;    |lpm_divide:Div0|                        ; 81 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cube_root|lpm_divide:Div0                                                                                   ; lpm_divide      ; work         ;
 ;       |lpm_divide_p0p:auto_generated|       ; 81 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cube_root|lpm_divide:Div0|lpm_divide_p0p:auto_generated                                                     ; lpm_divide_p0p  ; work         ;
 ;          |abs_divider_kbg:divider|          ; 81 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |cube_root|lpm_divide:Div0|lpm_divide_p0p:auto_generated|abs_divider_kbg:divider                             ; abs_divider_kbg ; work         ;
@@ -336,42 +335,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
 
 
-+-------------------------------------------------------------+
-; Logic Cells Representing Combinational Loops                ;
-+--------------------------------------------------------+----+
-; Logic Cell Name                                        ;    ;
-+--------------------------------------------------------+----+
-; Decoder0~0                                             ;    ;
-; Decoder0~1                                             ;    ;
-; Add26~0                                                ;    ;
-; Add26~1                                                ;    ;
-; Add26~2                                                ;    ;
-; Add26~3                                                ;    ;
-; Add26~4                                                ;    ;
-; Add26~5                                                ;    ;
-; Add26~6                                                ;    ;
-; Add26~7                                                ;    ;
-; Add26~8                                                ;    ;
-; Add26~9                                                ;    ;
-; Add26~10                                               ;    ;
-; Add26~11                                               ;    ;
-; Add26~12                                               ;    ;
-; Add26~13                                               ;    ;
-; Add26~14                                               ;    ;
-; Add26~15                                               ;    ;
-; Add26~16                                               ;    ;
-; Add26~17                                               ;    ;
-; Number of logic cells representing combinational loops ; 20 ;
-+--------------------------------------------------------+----+
-Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 20    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -910,7 +879,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 20                          ;
+; boundary_port         ; 21                          ;
+; cycloneiii_ff         ; 20                          ;
+;     plain             ; 20                          ;
 ; cycloneiii_lcell_comb ; 1053                        ;
 ;     arith             ; 322                         ;
 ;         1 data inputs ; 4                           ;
@@ -926,7 +897,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_mac_out    ; 7                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 91.40                       ;
-; Average LUT depth     ; 65.19                       ;
+; Average LUT depth     ; 65.15                       ;
 +-----------------------+-----------------------------+
 
 
@@ -935,7 +906,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:11     ;
+; Top            ; 00:00:07     ;
 +----------------+--------------+
 
 
@@ -945,7 +916,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Dec 04 19:54:02 2020
+    Info: Processing started: Sat Dec 05 10:01:24 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cube_root -c cube_root
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -957,26 +928,26 @@ Info (12021): Found 1 design units, including 1 entities, in source file testben
 Warning (12019): Can't analyze file -- file diplay_bcd.v is missing
 Warning (12019): Can't analyze file -- file Seven_segment_LED_Display_Controller.v is missing
 Info (12127): Elaborating entity "cube_root" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at cube_root.v(34): truncated value with size 32 to match size of target (5) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 34
 Warning (10230): Verilog HDL assignment warning at cube_root.v(35): truncated value with size 32 to match size of target (5) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
 Warning (10230): Verilog HDL assignment warning at cube_root.v(36): truncated value with size 32 to match size of target (5) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
-Warning (10230): Verilog HDL assignment warning at cube_root.v(43): truncated value with size 32 to match size of target (20) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 43
+Warning (10230): Verilog HDL assignment warning at cube_root.v(37): truncated value with size 32 to match size of target (5) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 37
+Warning (10230): Verilog HDL assignment warning at cube_root.v(44): truncated value with size 32 to match size of target (20) File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 44
 Info (278001): Inferred 13 megafunctions from design logic
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 22
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult2" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult3" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult4" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult5" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult6" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult7" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult8" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult9" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 34
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 22
-Info (12133): Instantiated megafunction "lpm_mult:Mult0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 22
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 23
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult2" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult3" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult4" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult5" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult6" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult7" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult8" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult9" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 37
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 23
+Info (12133): Instantiated megafunction "lpm_mult:Mult0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 23
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "20"
     Info (12134): Parameter "LPM_WIDTHP" = "28"
@@ -992,8 +963,8 @@ Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult0|multcore:mul
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_ogh.tdf
     Info (12023): Found entity 1: add_sub_ogh File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/add_sub_ogh.tdf Line: 22
 Info (12131): Elaborated megafunction instantiation "lpm_mult:Mult0|altshift:external_latency_ffs", which is child of megafunction instantiation "lpm_mult:Mult0" File: c:/programms/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mult.tdf Line: 351
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult2" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult2" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult2" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult2" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "5"
     Info (12134): Parameter "LPM_WIDTHB" = "4"
     Info (12134): Parameter "LPM_WIDTHP" = "9"
@@ -1005,8 +976,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult2" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_i1t.tdf
     Info (12023): Found entity 1: mult_i1t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_i1t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult3" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult3" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult3" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult3" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "6"
     Info (12134): Parameter "LPM_WIDTHB" = "5"
     Info (12134): Parameter "LPM_WIDTHP" = "11"
@@ -1018,8 +989,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult3" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_t2t.tdf
     Info (12023): Found entity 1: mult_t2t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_t2t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult4" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult4" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult4" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult4" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "8"
     Info (12134): Parameter "LPM_WIDTHB" = "6"
     Info (12134): Parameter "LPM_WIDTHP" = "14"
@@ -1031,8 +1002,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult4" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_33t.tdf
     Info (12023): Found entity 1: mult_33t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_33t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult5" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult5" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult5" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult5" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "9"
     Info (12134): Parameter "LPM_WIDTHB" = "7"
     Info (12134): Parameter "LPM_WIDTHP" = "16"
@@ -1044,8 +1015,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult5" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_73t.tdf
     Info (12023): Found entity 1: mult_73t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_73t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult6" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult6" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult6" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult6" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "10"
     Info (12134): Parameter "LPM_WIDTHB" = "8"
     Info (12134): Parameter "LPM_WIDTHP" = "18"
@@ -1057,8 +1028,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult6" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_j4t.tdf
     Info (12023): Found entity 1: mult_j4t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_j4t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult7" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult7" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult7" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult7" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "11"
     Info (12134): Parameter "LPM_WIDTHB" = "9"
     Info (12134): Parameter "LPM_WIDTHP" = "20"
@@ -1070,8 +1041,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult7" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_e4t.tdf
     Info (12023): Found entity 1: mult_e4t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_e4t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult8" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult8" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult8" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult8" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "12"
     Info (12134): Parameter "LPM_WIDTHB" = "10"
     Info (12134): Parameter "LPM_WIDTHP" = "22"
@@ -1083,8 +1054,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult8" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_p5t.tdf
     Info (12023): Found entity 1: mult_p5t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_p5t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult9" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
-Info (12133): Instantiated megafunction "lpm_mult:Mult9" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 27
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult9" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
+Info (12133): Instantiated megafunction "lpm_mult:Mult9" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 28
     Info (12134): Parameter "LPM_WIDTHA" = "13"
     Info (12134): Parameter "LPM_WIDTHB" = "11"
     Info (12134): Parameter "LPM_WIDTHP" = "24"
@@ -1096,8 +1067,8 @@ Info (12133): Instantiated megafunction "lpm_mult:Mult9" with the following para
     Info (12134): Parameter "MAXIMIZE_SPEED" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mult_t5t.tdf
     Info (12023): Found entity 1: mult_t5t File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_t5t.tdf Line: 28
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 34
-Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 34
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
+Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
     Info (12134): Parameter "LPM_WIDTHN" = "11"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
@@ -1117,8 +1088,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_
     Info (12023): Found entity 1: lpm_abs_5v9 File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/lpm_abs_5v9.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_f0a.tdf
     Info (12023): Found entity 1: lpm_abs_f0a File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/lpm_abs_f0a.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
-Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
+Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
     Info (12134): Parameter "LPM_WIDTHN" = "11"
     Info (12134): Parameter "LPM_WIDTHD" = "8"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
@@ -1126,8 +1097,8 @@ Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following par
     Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_soo.tdf
     Info (12023): Found entity 1: lpm_divide_soo File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/lpm_divide_soo.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
-Info (12133): Instantiated megafunction "lpm_divide:Div1" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 35
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
+Info (12133): Instantiated megafunction "lpm_divide:Div1" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
     Info (12134): Parameter "LPM_WIDTHN" = "8"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
@@ -1141,8 +1112,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alt_
     Info (12023): Found entity 1: alt_u_div_c4f File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/alt_u_div_c4f.tdf Line: 26
 Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_2v9.tdf
     Info (12023): Found entity 1: lpm_abs_2v9 File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/lpm_abs_2v9.tdf Line: 24
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
-Info (12133): Instantiated megafunction "lpm_divide:Mod1" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 36
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod1" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 37
+Info (12133): Instantiated megafunction "lpm_divide:Mod1" with the following parameter: File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 37
     Info (12134): Parameter "LPM_WIDTHN" = "11"
     Info (12134): Parameter "LPM_WIDTHD" = "5"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
@@ -1174,15 +1145,15 @@ Info (17016): Found the following redundant logic cells in design
     Info (17048): Logic cell "lpm_mult:Mult2|mult_i1t:auto_generated|le2a[0]" File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/db/mult_i1t.tdf Line: 39
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 1081 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 8 input pins
+Info (21057): Implemented 1082 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
     Info (21059): Implemented 12 output pins
     Info (21061): Implemented 1050 logic cells
     Info (21062): Implemented 11 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4793 megabytes
-    Info: Processing ended: Fri Dec 04 19:54:43 2020
-    Info: Elapsed time: 00:00:41
-    Info: Total CPU time (on all processors): 00:00:51
+    Info: Peak virtual memory: 4794 megabytes
+    Info: Processing ended: Sat Dec 05 10:01:48 2020
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:39
 
 

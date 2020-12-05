@@ -74,9 +74,9 @@ set_location_assignment PIN_121 -to LED_out[3]
 set_location_assignment PIN_120 -to LED_out[2]
 set_location_assignment PIN_119 -to LED_out[1]
 set_location_assignment PIN_115 -to LED_out[0]
-set_location_assignment PIN_24 -to clock_100Mhz
 set_location_assignment PIN_138 -to Anode_Activate[3]
 set_location_assignment PIN_137 -to Anode_Activate[2]
 set_location_assignment PIN_136 -to Anode_Activate[1]
 set_location_assignment PIN_135 -to Anode_Activate[0]
+set_location_assignment PIN_23 -to clk
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

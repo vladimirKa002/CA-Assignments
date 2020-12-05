@@ -1,1 +1,1 @@
-Warning (10268): Verilog HDL information at cube_root.v(84): always construct contains both blocking and non-blocking assignments File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 84
+Warning (10268): Verilog HDL information at cube_root.v(43): always construct contains both blocking and non-blocking assignments File: C:/Files/Programming/Verilog and FPGA/Lessons/Cube root/cube_root.v Line: 43

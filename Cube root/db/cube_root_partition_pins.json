@@ -82,6 +82,10 @@
 				{
 					"name" : "number[2]",
 					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
 				}
 			]
 		}

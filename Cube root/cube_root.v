@@ -1,4 +1,5 @@
 module cube_root(
+   input clk,								   // Clock signal 50Mhz
 	input [7:0] number,						// Input value
    output reg [3:0] Anode_Activate,		// Setter for activating segments
    output reg [7:0] LED_out				// Value on the segment
@@ -38,11 +39,13 @@ end
 
 
 // Changing refresh_counter to update segments
-always @(*)
+always @(posedge clk)
     begin 
         refresh_counter <= refresh_counter + 1;
     end 
 
+// Setting LED_activating_counter as 2 last bits of refresh_counter
+// in order to update segments each 5.2 ms
 assign LED_activating_counter = refresh_counter[19:18];
 
 // Setting one segment activated accorfing to LED_activating_counter

@@ -1,4 +1,24 @@
 |cube_root
+clk => refresh_counter[0].CLK
+clk => refresh_counter[1].CLK
+clk => refresh_counter[2].CLK
+clk => refresh_counter[3].CLK
+clk => refresh_counter[4].CLK
+clk => refresh_counter[5].CLK
+clk => refresh_counter[6].CLK
+clk => refresh_counter[7].CLK
+clk => refresh_counter[8].CLK
+clk => refresh_counter[9].CLK
+clk => refresh_counter[10].CLK
+clk => refresh_counter[11].CLK
+clk => refresh_counter[12].CLK
+clk => refresh_counter[13].CLK
+clk => refresh_counter[14].CLK
+clk => refresh_counter[15].CLK
+clk => refresh_counter[16].CLK
+clk => refresh_counter[17].CLK
+clk => refresh_counter[18].CLK
+clk => refresh_counter[19].CLK
 number[0] => Mult0.IN27
 number[1] => Mult0.IN26
 number[2] => Mult0.IN25
